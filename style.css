@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.pantalla{
+    position:relative;
+    width:900px;
+    height: 600px;
+    background-color:deeppink;
+    margin:1em;
+    text-align:center;
+    font-size: 3em;
+    vertical-align: center;
+     font-family:Freestyle Script;
+}
+#pantalla1{
+    background-image:url(nina2.png),url('ninajugando.png'),url('balloons.png');
+    background-size: 25%,25%,25%;
+    background-position: bottom right,bottom left,center bottom;
+    background-repeat: no-repeat,no-repeat;
+     font-family:Freestyle Script;
+}
+#pantalla1 h1,#pantalla1 h2,#pantalla1 button{
+    position: absolute;
+}
+#pantalla1 h1{
+    color: rgba(6, 152, 201,1);
+   top:20%;
+    left: 10%;
+    transform: rotate(-15deg);
+    text-shadow: 5px 5px 12px white;
+    }
+
+#pantalla1 h2{
+
+   top:30%;
+    left: 50%;
+     transform: rotate(-15deg);
+    text-shadow: 5px 5px 12px white;
+        color: rgba(6, 152, 201,1);
+}
+#pantalla1 button{
+   top:85%;
+    left: 40%;
+}
+button{
+    font-size:.5em;
+    background-color:mediumpurple;
+    color:white;
+    margin:.4em;
+    padding:.4em;
+    border-radius:.4em;
+    box-shadow:10px 10px 20px #FFf;
+    border-radius:1em;
+     font-family:Freestyle Script;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  background-color:#FF00FF;
+    color:midnightblue;
+    padding: 8px 9px;
+  font-family:Freestyle Script;
+  font-size: 16px;
+  cursor: pointer;
+     font-family:Freestyle Script;
+}
+
+input[type="radio"]:checked+label {
+  background-color:paleturquoise;
+    font-size:1em; 
+}
+#display{
+    background-color:mediumpurple;
+    color:darkblue;
+    list-style: none;
+    margin: 1em;
+    padding:1em;
+    box-shadow:10px 10px #FF00FF;
+     font-family:Freestyle Script;
+     }
+#pantalla2{
+    background-image:url(nina.png),url('ninaconpelota.png');
+    background-size: 25%,25%,25%;
+    background-position: bottom right,bottom left,center bottom;
+    background-repeat: no-repeat,no-repeat;
+     font-family:Freestyle Script;
+}
+#pantalla2 #paresynones,#pantalla2 #numeros,#pantalla2 button{
+    position: absolute;
+}
+
+#pantalla2 #paresynones{
+   top:10%;
+    left: 30%;
+     
+    text-shadow: 5px 5px 12px white;
+        color: rgba(6, 152, 201,1);
+ }
+#pantalla2 #numeros{
+   top:40%;
+    left: 20%;
+ 
+ }
+#pantalla2  button{
+   top:70%;
+    left: 40%;
+  
+ }
+#pantalla5  h2{
+   margin-top:  2em;
+  
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
